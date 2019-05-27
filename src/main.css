@@ -1,0 +1,505 @@
+@font-face {
+    font-family: 'Gerbera';
+    src: url('Gerbera-Black.eot');
+    src: url('Gerbera-Black.eot?#iefix') format('embedded-opentype'),
+        url('Gerbera-Black.woff') format('woff'),
+        url('Gerbera-Black.ttf') format('truetype'),
+        url('Gerbera-Black.svg#Gerbera-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gerbera';
+    src: url('Gerbera.eot');
+    src: url('Gerbera.eot?#iefix') format('embedded-opentype'),
+        url('Gerbera.woff') format('woff'),
+        url('Gerbera.ttf') format('truetype'),
+        url('Gerbera.svg#Gerbera') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gerbera';
+    src: url('Gerbera-Light.eot');
+    src: url('Gerbera-Light.eot?#iefix') format('embedded-opentype'),
+        url('Gerbera-Light.woff') format('woff'),
+        url('Gerbera-Light.ttf') format('truetype'),
+        url('Gerbera-Light.svg#Gerbera-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gerbera';
+    src: url('Gerbera-Medium.eot');
+    src: url('Gerbera-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Gerbera-Medium.woff') format('woff'),
+        url('Gerbera-Medium.ttf') format('truetype'),
+        url('Gerbera-Medium.svg#Gerbera-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+
+
+.main {
+position: relative;
+width: 1920px;
+height: 1080px;
+
+background: #FFFFFF;
+}
+
+
+button {background-color:white;}
+
+.header {
+position: absolute;
+width: 1653px;
+height: 101px;
+left: 134px;
+top: 60px;
+}
+
+
+/* начать заново */
+
+.return {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: Gerbera;
+font-size: 24px;
+line-height: 32px;
+text-align: right;
+
+color: #000000;
+}
+/* Культурно-образовательные и музейные комплексы */
+.header_one {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 44.55%;
+
+font-family: Gerbera;
+font-weight: 500;
+font-style: normal;
+font-size: 24px;
+line-height: 32px;
+color: #000000;
+}
+
+
+/* Владивосток / Калининград / Кемерово / Севастополь */
+.header_two{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 39.6%;
+bottom: 4.95%;
+
+font-family: Gerbera;
+font-size: 24px;
+line-height: 32px;
+font-weight: 300;
+font-style: normal;
+color: #000000;
+}
+
+
+.button {
+    height: 82px;
+        width: 404px;
+    border: 6px solid black;
+    font-family: Gerbera;
+    font-size: 24px;
+    line-height: 33px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+    /*padding:21px;*/
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.button:active {
+	background: #CEF6FF;
+}
+
+
+.page {
+position: absolute;
+width: 96px;
+height: 34px;
+left: 598px;
+top: 256px;
+
+font-family: Gerbera;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: 0.145em;
+
+color: #000000;
+}
+
+
+
+.page4 .page {
+	left: 560px;
+}
+
+.page5 .page {
+	left: 564px;
+top: 256px;
+}
+
+.page6 .page {
+	left: 579px;
+top: 256px;
+}
+
+
+.paragraph {
+}
+
+.buttons {
+	position:absolute;
+	width: 371.07px;
+}
+
+.page1 .buttons {
+
+left: 778.17px;
+top: 739.67px;
+}
+
+.page2 .buttons {
+left: 774px;
+top: 469px;
+}
+
+.page3 .buttons  {
+left: 774px;
+top: 469px;
+}
+
+.page4 .buttons {
+width: 385.8px;
+left: 766.43px;
+top: 511.18px;
+
+}
+
+.page5 .buttons {
+	left: 512px;
+top: 469px;
+}
+
+.page6 .buttons {
+left: 635px;
+top: 462px;
+}
+
+
+.page3 .button {
+	margin-bottom: 50px;
+}
+
+.page4 .button {
+	font-family: Gerbera;
+font-size: 14px;
+line-height: 170%;
+margin-bottom: 50px;
+}
+
+.text {font-family: Gerbera;
+font-size: 36px;
+line-height: 48px;
+color: #000000;
+position: absolute;
+font-weight: 500;
+font-style: normal;
+}
+
+.text p {
+	margin-bottom:25px;
+} 
+
+
+.page1 .text {
+
+width: 818px;
+height: 425px;
+left: 551px;
+top: 256px;
+
+}
+
+
+.page2 .text {
+position: absolute;
+width: 395.83px;
+height: 82.02px;
+left: 762.55px;
+top: 545.67px;
+}
+
+.page3 .text {
+width: 629px;
+height: 118px;
+left: 694px;
+top: 256px;
+}
+
+.page4 .text {
+width: 705px;
+height: 141px;
+left: 656px;
+top: 256px;
+}
+
+.page5 .text {
+	left: 660px;
+top: 256px;
+width: 696px;
+height: 61px;
+}
+
+.page6 .text {
+	left: 675px;
+top: 256px;
+}
+
+.page7 .text {
+left: 774px;
+top: 256px;
+}
+
+.smallbutton {
+	width: 98.73px;
+height: 42.39px;
+padding:4px;
+font-family: Gerbera;
+/*font-size: 24px;*/
+line-height: 138%;
+/* or 33px */
+margin-right:20px;
+align-items: center;
+border: 4px solid #000000;
+box-sizing: border-box;
+vertical-align: middle;
+font-weight: 500;
+font-style: normal;
+}
+
+span {
+font-family: Gerbera;
+font-size: 18px;
+line-height: 138%;
+font-weight: 500;
+font-style: normal;
+}
+
+
+.page7 p {
+	font-weight: normal;
+    font-style: normal;
+}
+
+.page7 span {font-weight: inherit;}
+
+
+
+.sendbutton {
+	position: absolute;
+width: 227px;
+height: 70px;
+left: 1584px;
+top: 920px;
+/*padding:15px;*/
+border: 6px solid #000000;
+box-sizing: border-box;
+}
+
+.sendbutton:disabled {
+	background:#D1D1D1;
+	color:black;
+}
+
+.container {
+	min-width:600px;
+}
+
+
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	/*border: 1px solid #999999;*/
+	display: table-cell;
+	padding: 10px 20px;
+	vertical-align: middle;
+
+}
+
+.tc1 {
+	min-width:403px;
+}
+
+.tc2 {
+	min-width:250px;
+}
+
+.tc3 {
+	min-width: 576px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+.checkbox {
+	width: 34px;
+height: 34px;
+border: 4px solid #000000;
+box-sizing: border-box;
+}
+
+.seven_a {
+position: absolute;
+width: 542px;
+height: 554px;
+left: 326px;
+top: 377px;
+
+font-family: Gerbera;
+font-size: 18px;
+line-height: 138%;
+font-weight: normal;
+font-style: normal;
+/* or 25px */
+
+
+color: #000000;
+}
+
+.seven_b {
+	position: absolute;
+height: 554px;
+left: 980px;
+top: 377px;
+
+font-family: Gerbera;
+font-size: 18px;
+line-height: 138%;
+/* or 25px */
+font-weight: normal;
+font-style: normal;
+
+color: #000000;
+}
+
+h3 {
+	font-size:20px;
+	font-weight: bold;
+	margin: 30px 7px;
+}
+p{
+	margin:7px;
+}
+
+.yes {
+	background:#C8FFBF;
+}
+
+.no {
+	background:#FFBFBF;
+}
+
+.checked {
+	background:#C8FFBF;
+	    align-items: center;
+    text-align: center;
+}
+
+.checked::after { 
+  content: "⨯";
+  font-size: 38px;
+  position: relative;
+  bottom: 7px;
+
+}
+
+.bold {
+	font-weight: 900!important;
+    font-style: normal;
+}
